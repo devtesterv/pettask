@@ -6,30 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		2A70744D2CDC8AAD00C6C276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7074412CDC8AAD00C6C276 /* AppDelegate.swift */; };
-		2A70744E2CDC8AAD00C6C276 /* Cummypets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A7074432CDC8AAD00C6C276 /* Cummypets.xcdatamodeld */; };
-		2A70744F2CDC8AAD00C6C276 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7074492CDC8AAD00C6C276 /* SceneDelegate.swift */; };
-		2A7074502CDC8AAD00C6C276 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A70744A2CDC8AAD00C6C276 /* ViewController.swift */; };
-		2A7074512CDC8AAD00C6C276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7074422CDC8AAD00C6C276 /* Assets.xcassets */; };
-		2A7074532CDC8AAD00C6C276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7074462CDC8AAD00C6C276 /* LaunchScreen.storyboard */; };
-		2A7074542CDC8AAD00C6C276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7074482CDC8AAD00C6C276 /* Main.storyboard */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		2A7074132CDC59E900C6C276 /* Cummypets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cummypets.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A7074412CDC8AAD00C6C276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A7074422CDC8AAD00C6C276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2A7074442CDC8AAD00C6C276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A7074452CDC8AAD00C6C276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2A7074472CDC8AAD00C6C276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2A7074492CDC8AAD00C6C276 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A70744A2CDC8AAD00C6C276 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2A70744C2CDC8AAD00C6C276 /* Cummypets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cummypets.xcdatamodel; sourceTree = "<group>"; };
+		2A70745E2CDC8D1000C6C276 /* Cummypets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cummypets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2A7074732CDC8D1100C6C276 /* Exceptions for "Cummypets" folder in "Cummypets" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2A70745D2CDC8D1000C6C276 /* Cummypets */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2A7074602CDC8D1000C6C276 /* Cummypets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2A7074732CDC8D1100C6C276 /* Exceptions for "Cummypets" folder in "Cummypets" target */,
+			);
+			path = Cummypets;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		2A7074102CDC59E900C6C276 /* Frameworks */ = {
+		2A70745B2CDC8D1000C6C276 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,141 +42,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A70740A2CDC59E900C6C276 = {
+		2A7074552CDC8D1000C6C276 = {
 			isa = PBXGroup;
 			children = (
-				2A70744B2CDC8AAD00C6C276 /* Cummypets */,
-				2A7074142CDC59E900C6C276 /* Products */,
+				2A7074602CDC8D1000C6C276 /* Cummypets */,
+				2A70745F2CDC8D1000C6C276 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2A7074142CDC59E900C6C276 /* Products */ = {
+		2A70745F2CDC8D1000C6C276 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A7074132CDC59E900C6C276 /* Cummypets.app */,
+				2A70745E2CDC8D1000C6C276 /* Cummypets.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		2A70744B2CDC8AAD00C6C276 /* Cummypets */ = {
-			isa = PBXGroup;
-			children = (
-				2A7074412CDC8AAD00C6C276 /* AppDelegate.swift */,
-				2A7074422CDC8AAD00C6C276 /* Assets.xcassets */,
-				2A7074432CDC8AAD00C6C276 /* Cummypets.xcdatamodeld */,
-				2A7074442CDC8AAD00C6C276 /* Info.plist */,
-				2A7074462CDC8AAD00C6C276 /* LaunchScreen.storyboard */,
-				2A7074482CDC8AAD00C6C276 /* Main.storyboard */,
-				2A7074492CDC8AAD00C6C276 /* SceneDelegate.swift */,
-				2A70744A2CDC8AAD00C6C276 /* ViewController.swift */,
-			);
-			path = Cummypets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A7074122CDC59E900C6C276 /* Cummypets */ = {
+		2A70745D2CDC8D1000C6C276 /* Cummypets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A7074292CDC59EA00C6C276 /* Build configuration list for PBXNativeTarget "Cummypets" */;
+			buildConfigurationList = 2A7074742CDC8D1100C6C276 /* Build configuration list for PBXNativeTarget "Cummypets" */;
 			buildPhases = (
-				2A70740F2CDC59E900C6C276 /* Sources */,
-				2A7074102CDC59E900C6C276 /* Frameworks */,
-				2A7074112CDC59E900C6C276 /* Resources */,
+				2A70745A2CDC8D1000C6C276 /* Sources */,
+				2A70745B2CDC8D1000C6C276 /* Frameworks */,
+				2A70745C2CDC8D1000C6C276 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				2A7074602CDC8D1000C6C276 /* Cummypets */,
+			);
 			name = Cummypets;
 			packageProductDependencies = (
 			);
 			productName = Cummypets;
-			productReference = 2A7074132CDC59E900C6C276 /* Cummypets.app */;
+			productReference = 2A70745E2CDC8D1000C6C276 /* Cummypets.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2A70740B2CDC59E900C6C276 /* Project object */ = {
+		2A7074562CDC8D1000C6C276 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					2A7074122CDC59E900C6C276 = {
+					2A70745D2CDC8D1000C6C276 = {
 						CreatedOnToolsVersion = 16.1;
 					};
 				};
 			};
-			buildConfigurationList = 2A70740E2CDC59E900C6C276 /* Build configuration list for PBXProject "Cummypets" */;
+			buildConfigurationList = 2A7074592CDC8D1000C6C276 /* Build configuration list for PBXProject "Cummypets" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 2A70740A2CDC59E900C6C276;
+			mainGroup = 2A7074552CDC8D1000C6C276;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 2A7074142CDC59E900C6C276 /* Products */;
+			productRefGroup = 2A70745F2CDC8D1000C6C276 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A7074122CDC59E900C6C276 /* Cummypets */,
+				2A70745D2CDC8D1000C6C276 /* Cummypets */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2A7074112CDC59E900C6C276 /* Resources */ = {
+		2A70745C2CDC8D1000C6C276 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A7074512CDC8AAD00C6C276 /* Assets.xcassets in Resources */,
-				2A7074532CDC8AAD00C6C276 /* LaunchScreen.storyboard in Resources */,
-				2A7074542CDC8AAD00C6C276 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A70740F2CDC59E900C6C276 /* Sources */ = {
+		2A70745A2CDC8D1000C6C276 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A70744D2CDC8AAD00C6C276 /* AppDelegate.swift in Sources */,
-				2A70744E2CDC8AAD00C6C276 /* Cummypets.xcdatamodeld in Sources */,
-				2A70744F2CDC8AAD00C6C276 /* SceneDelegate.swift in Sources */,
-				2A7074502CDC8AAD00C6C276 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		2A7074462CDC8AAD00C6C276 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A7074452CDC8AAD00C6C276 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		2A7074482CDC8AAD00C6C276 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A7074472CDC8AAD00C6C276 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		2A70742A2CDC59EA00C6C276 /* Debug */ = {
+		2A7074752CDC8D1100C6C276 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -201,7 +166,7 @@
 			};
 			name = Debug;
 		};
-		2A70742B2CDC59EA00C6C276 /* Release */ = {
+		2A7074762CDC8D1100C6C276 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -229,7 +194,7 @@
 			};
 			name = Release;
 		};
-		2A70742C2CDC59EA00C6C276 /* Debug */ = {
+		2A7074772CDC8D1100C6C276 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +257,7 @@
 			};
 			name = Debug;
 		};
-		2A70742D2CDC59EA00C6C276 /* Release */ = {
+		2A7074782CDC8D1100C6C276 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -351,38 +316,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A70740E2CDC59E900C6C276 /* Build configuration list for PBXProject "Cummypets" */ = {
+		2A7074592CDC8D1000C6C276 /* Build configuration list for PBXProject "Cummypets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A70742C2CDC59EA00C6C276 /* Debug */,
-				2A70742D2CDC59EA00C6C276 /* Release */,
+				2A7074772CDC8D1100C6C276 /* Debug */,
+				2A7074782CDC8D1100C6C276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A7074292CDC59EA00C6C276 /* Build configuration list for PBXNativeTarget "Cummypets" */ = {
+		2A7074742CDC8D1100C6C276 /* Build configuration list for PBXNativeTarget "Cummypets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A70742A2CDC59EA00C6C276 /* Debug */,
-				2A70742B2CDC59EA00C6C276 /* Release */,
+				2A7074752CDC8D1100C6C276 /* Debug */,
+				2A7074762CDC8D1100C6C276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2A7074432CDC8AAD00C6C276 /* Cummypets.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2A70744C2CDC8AAD00C6C276 /* Cummypets.xcdatamodel */,
-			);
-			currentVersion = 2A70744C2CDC8AAD00C6C276 /* Cummypets.xcdatamodel */;
-			path = Cummypets.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 2A70740B2CDC59E900C6C276 /* Project object */;
+	rootObject = 2A7074562CDC8D1000C6C276 /* Project object */;
 }
